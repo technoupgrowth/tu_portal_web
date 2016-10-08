@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+  <data>
+      <template name="Homepage" priority="29" id="website.homepage">
+       <t t-call="website.layout">
+        <div id="wrap" class="oe_structure oe_empty">
+            <div id="main_carousel" class="carousel slide s_banner oe_custom_bg" data-interval="10000" style="height: 100vh; overflow: hidden;">
+                <ol class="carousel-indicators">
+                    <li data-target="#Carousel1" data-slide-to="0"/>
+                    <li class="active" data-target="#myCarousel2" data-slide-to="1"/>
+                    <li data-target="#main_carousel" data-slide-to="2"/>
+                    <li data-target="#main_carousel" data-slide-to="3"/>
+                </ol>
+                <div id="#web" class="carousel-inner">
+                    <div class="item" style="background-color: rgb(0, 138, 230);">
+                        <div class="container">
+                            <div class="row content">
+                                <div class="carousel-img col-md-6 col-offset-6  hidden-sm hidden-xs">
+                                    <img style="animation-play-state: paused;" class="o_animate o_anim_fade_in_right" src="/tu_portal_web/static/img/web.png"/>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div style="animation-name: o_anim_zoom_in; visibility: visible; animation-play-state: running;" class="carousel-img col-md-6 hidden-sm hidden-xs mt16 o_animate o_anim_zoom_in o_animated">
+                                    <h1 style="color:#ff4000;" class="text-center">Diseño Web</h1>
+                                    <h2 style="color:black" class="text-center">A la medida de tu negocio</h2>
+                                </div>
+                                <div style="animation-name: o_anim_zoom_in; visibility: visible; animation-play-state: running;" class="carousel-img col-md-6 hidden-sm hidden-xs o_animate o_anim_zoom_in o_animated mt0">
+                                    <img style="animation-play-state: paused;" class="o_animate o_anim_fade_in_right" src="/web/image/766"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item oe_img_bg oe_custom_bg active" style="background-image: url('/website/static/src/img/banner/color_splash.jpg')">
+                        <div class="container">
+                            <div class="row content">
+                                <div class="carousel-content col-md-6 mt64">
+                                    <h2 class="o_default_snippet_text">El título de su banner</h2>
+                                    <h3 class="o_default_snippet_text">Pulse para personalizar este texto</h3>
+                                    <p>
+                                        <a href="/page/website.contactus" class="btn btn-success btn-large o_default_snippet_text">Contáctenos</a>
+                                    </p>
+                                </div>
+                                <div class="carousel-img col-md-6 hidden-sm hidden-xs">
+                                    <img style="" class="img-responsive" src="/website/static/src/img/banner/banner_picture.png" alt="Imagen de Odoo del banner"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="#android" class="item" style="background-color: #009900;">
+                        <div class="container">
+                            <div class="row content">
+                                <div class="carousel-img col-md-6 hidden-sm hidden-xs"/></div>
+                        </div>
+                    </div>
+                    <div class="item oe_img_bg oe_custom_bg" style="background-color: #5c8a8a;">
+                        <div class="container">
+                            <div class="row content">
+                                <div class="carousel-img col-md-6 hidden-sm hidden-xs"/></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </t>
+      </template>
+  </data>
+</openerp>
